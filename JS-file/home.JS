@@ -1,0 +1,12 @@
+let one = 1; two = 2; three = 3; four = 4; five = 5;
+six = 6; seven = 7; eight = 8; nine = 9; zero = 0;
+console.log(one * zero);
+console.log(one * one);
+console.log(one * two);
+console.log(one * three);
+console.log(one * four);
+console.log(one * five);
+console.log(one * six);
+console.log(one * seven);
+console.log(one * eight);
+console.log(one * nine);
