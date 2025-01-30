@@ -6,28 +6,28 @@ body {
     height: 100vh;
 }
 
-#keys {
+.keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;    
 }
 
-#calculator {
+.calculator {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(124, 135, 149);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
 }
 
-#display {
+.display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: lightslategrey;
+    background-color: rgb(35, 44, 53);
     color: white;
 }
 
@@ -42,21 +42,21 @@ button {
 }
 
 button:hover {
-    background-color: burlywood;  
+    background-color: rgb(162, 196, 216);  
 }
 
 button:active {
-    background-color: burlywood;
+    background-color: rgb(120, 162, 220);
 }
 
 .operator-btn {
-    background-color: orange;
+    background-color: rgb(127, 163, 195);
 }
 
 .operator-btn:hover {
-    background-color: lightpink;
+    background-color: rgb(163, 201, 211);
 }
 
 .operator-btn:active {
-    background-color: lightcoral;
+    background-color: rgb(148, 204, 231);
 }
